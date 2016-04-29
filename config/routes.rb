@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
+  get 'new_controller/me'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   root 'pages#home'
+  get  'me',to:"new_controller#me"                                        #Q4,since navigation from cloud https://assignment2-1-86448-simmyvarghese5.c9users.io/me replace localhost:3000/me 
   post 'stringify',to: 'pages#stringify'                                  #Q1
   put 'age', to: 'pages#person'                                           #Q3
   # Example of regular route:

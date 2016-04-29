@@ -14,7 +14,7 @@
  *= require_self
  */
  
-header{                                                             /*Styles the stringify.html and person.html.erb pages*/
+.stringify ,.person{                                                             /*Styles the stringify.html and person.html.erb pages*/
 font-style:italic;    
 color:purple;                                                       
 text-align: center;
@@ -22,13 +22,27 @@ padding:100px;
 border:1px solid indigo;
 margin:20px;
 }
-h1{
-    
+.stringify, .person h1{
 color:indigo;     
 }
-h3{    
+.stringify, .person h3{    
 color:cyan;      
 }
-h4{
+.stringify, .person h4{
 color:blue;         
+}
+.me{
+color:teal;                                                                     /*Q4:Styles the me.html page*/
+text-align: center;
+padding:10px;
+margin-top:100px;
+border-bottom:1px solid green;
+border-spacing:30px; 
+}
+
+#myPara{
+font-style:italic;     
+color:indigo;     
+font-size:22px;
+padding:20px;
 }
