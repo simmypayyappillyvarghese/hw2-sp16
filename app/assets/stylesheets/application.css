@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+ 
+header{                                                             /*Styles the stringify.html and person.html.erb pages*/
+font-style:italic;    
+color:purple;                                                       
+text-align: center;
+padding:100px;
+border:1px solid indigo;
+margin:20px;
+}
+h1{
+    
+color:indigo;     
+}
+h3{    
+color:cyan;      
+}
+h4{
+color:blue;         
+}
