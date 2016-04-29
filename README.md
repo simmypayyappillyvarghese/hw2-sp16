@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Instructions
 
 Hey There! Welcome to homework 2 of the SWE610 Ruby on Rails Class. This week we'll have covered routes (more in depth), simple ruby syntax, and basic CRUD statements.
@@ -82,3 +83,7 @@ You're done! Whew. Time to submit!
   git push origin master
   ```
   Create a new repository in your Github account called hw2-sp16.  Follow the instructions on how to push up an existing repository then submit the link through EMS. Please write a short paper 2-3 pages on steps you followed to complete this assignment 2 Q1.
+=======
+# hw2-sp16
+Assignment2-86448
+>>>>>>> fa23880bdb2385aeca0effd9fdb41f31dd4193ce
